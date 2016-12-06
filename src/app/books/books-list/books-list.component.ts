@@ -15,13 +15,20 @@ export class BooksListComponent implements OnInit {
   }
   imageWidth: number = 100;
   showImage:boolean = true;
-  bookAuthor: string = "Tom Jones";
-  bookTitle: string = "War and Peace 2";
-  bookPrice: string = "$29.95";
-  bookDescription: string = "Book of historical fiction";
-  bookReviews: number = 25;
-  bookImageUrl: string = "app/assets/images/656.jpg";
-  booksInStock:number = 2;
+  booksInStoc:number=2;
+
+
+  books:any[]=[{
+      bookAuthor:"Tom Jones",
+      bookTitle:"War and Peace 2",
+      bookPrice:"$29.95",
+      bookDescription:"Book of historical fiction",
+      bookReviews:25,
+      bookImageUrl:"app/assets/images/656.jpg",
+
+
+  }]
+
 
 
   toggleImage():void{
