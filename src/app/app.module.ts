@@ -8,12 +8,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { BooksListComponent } from './books/books-list/books-list.component';
 import { BooksDetailsComponent } from './books/books-details/books-details.component';
 
+import { HighlightDirective } from './shared/highlight.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     BooksListComponent,
-    BooksDetailsComponent
+    BooksDetailsComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

@@ -21,4 +21,10 @@ export class BooksListComponent implements OnInit {
   bookDescription: string = "Book of historical fiction";
   bookReviews: number = 25;
   bookImageUrl: string = "app/assets/images/656.jpg";
+  booksInStock:number = 2;
+
+
+  toggleImage():void{
+    this.showImage = !this.showImage;
+  }
 }
