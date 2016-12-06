@@ -21,8 +21,10 @@ export class BooksListComponent implements OnInit {
   books:any[]=[{
       bookAuthor:"Tom Jones",
       bookTitle:"War and Peace 2",
-      bookPrice:"$29.95",
-      bookDescription:"Book of historical fiction",
+      bookPrice:29.95,
+      bookDescription:"Book of historical fiction dddssddssdsdasddddddd",
+      publishedOn: new Date('02/11/1921'),
+      inStock: "yes",
       bookReviews:25,
       bookImageUrl:"app/assets/images/656.jpg",
 
