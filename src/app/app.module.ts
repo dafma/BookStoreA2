@@ -10,6 +10,7 @@ import { BooksDetailsComponent } from './books/books-details/books-details.compo
 
 import { HighlightDirective } from './shared/highlight.directive';
 import { TruncatePipe } from './shared/pipes/truncate.pipe';
+import {FavoriteComponent} from './favorites/favorite/favorite.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TruncatePipe } from './shared/pipes/truncate.pipe';
     BooksListComponent,
     BooksDetailsComponent,
     HighlightDirective,
-    TruncatePipe
+    TruncatePipe,
+    FavoriteComponent
   ],
   imports: [
     BrowserModule,
